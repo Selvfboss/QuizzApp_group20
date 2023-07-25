@@ -12,9 +12,47 @@ namespace QuizzApp_group20
 {
     public partial class Form1 : Form
     {
+        // Declared the dictionary here which contains strings..
+
+        private Dictionary<string, string> studentDetails;
+
         public Form1()
         {
+
             InitializeComponent();
+
+            /*
+             the dictory below contains all the names and passwords of the students
+             */
+            studentDetails = new Dictionary<string, string>
+            {
+                {"Nawas", "password123"},
+                {"Duke", "pass456"},
+                {"Nicholas", "pass789"},
+                {"Dennis", "pass101112"},
+                {"Aaron", "pass131415"}
+            };
         }
+
+        private void startBtn_Click(object sender, EventArgs e)
+        {
+            string studentName = username.Text;
+            string logins = password.Text;
+
+            if (studentDetails.ContainsKey(studentName) && studentDetails[studentName] == logins)
+            {
+                MessageBox.Show("Login successful!");
+                
+                main main = new main();
+                main.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password. Please try again.");
+            }
+        }
+
+       
     }
 }
