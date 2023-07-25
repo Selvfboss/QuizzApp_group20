@@ -1,0 +1,12 @@
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\bin\Debug\QuizzApp_group20.exe.config
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\bin\Debug\QuizzApp_group20.exe
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\bin\Debug\QuizzApp_group20.pdb
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\obj\Debug\QuizzApp_group20.csproj.AssemblyReference.cache
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\obj\Debug\QuizzApp_group20.csproj.SuggestedBindingRedirects.cache
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\obj\Debug\QuizzApp_group20.Form1.resources
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\obj\Debug\QuizzApp_group20.Properties.Resources.resources
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\obj\Debug\QuizzApp_group20.csproj.GenerateResource.cache
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\obj\Debug\QuizzApp_group20.csproj.CoreCompileInputs.cache
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\obj\Debug\QuizzApp_group20.exe
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\obj\Debug\QuizzApp_group20.pdb
+C:\Users\hutch\OneDrive\Documents\GitHub\QuizzApp_group20\QuizzApp_group20\obj\Debug\QuizzApp_group20.main.resources
