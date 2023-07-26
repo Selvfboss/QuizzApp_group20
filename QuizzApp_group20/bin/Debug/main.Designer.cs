@@ -71,7 +71,7 @@
             this.label1.BackColor = System.Drawing.Color.Blue;
             this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(465, 33);
+            this.label1.Location = new System.Drawing.Point(567, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(353, 24);
             this.label1.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             this.nextBtn.BackColor = System.Drawing.Color.Blue;
             this.nextBtn.ForeColor = System.Drawing.Color.White;
-            this.nextBtn.Location = new System.Drawing.Point(469, 385);
+            this.nextBtn.Location = new System.Drawing.Point(587, 385);
             this.nextBtn.Name = "nextBtn";
             this.nextBtn.Size = new System.Drawing.Size(82, 30);
             this.nextBtn.TabIndex = 3;
@@ -93,7 +93,7 @@
             // 
             this.quitBtn.BackColor = System.Drawing.Color.Blue;
             this.quitBtn.ForeColor = System.Drawing.Color.White;
-            this.quitBtn.Location = new System.Drawing.Point(736, 385);
+            this.quitBtn.Location = new System.Drawing.Point(854, 385);
             this.quitBtn.Name = "quitBtn";
             this.quitBtn.Size = new System.Drawing.Size(82, 30);
             this.quitBtn.TabIndex = 4;
@@ -167,7 +167,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 459);
+            this.ClientSize = new System.Drawing.Size(1044, 459);
             this.Controls.Add(this.qtnNumberLabel);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
