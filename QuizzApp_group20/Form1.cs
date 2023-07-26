@@ -36,21 +36,9 @@ namespace QuizzApp_group20
 
         private void startBtn_Click(object sender, EventArgs e)
         {
-            string studentName = username.Text;
-            string logins = password.Text;
-
-            if (studentDetails.ContainsKey(studentName) && studentDetails[studentName] == logins)
-            {
-                MessageBox.Show("Login successful!");
-                
-                main main = new main();
-                main.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Invalid username or password. Please try again.");
-            }
+            main main = new main();
+            main.Show();
+            this.Hide();
         }
 
        
