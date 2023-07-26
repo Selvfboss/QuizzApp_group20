@@ -39,6 +39,7 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.qtnNumberLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -103,7 +104,7 @@
             // qtnLabel
             // 
             this.qtnLabel.AutoSize = true;
-            this.qtnLabel.Location = new System.Drawing.Point(469, 94);
+            this.qtnLabel.Location = new System.Drawing.Point(468, 134);
             this.qtnLabel.Name = "qtnLabel";
             this.qtnLabel.Size = new System.Drawing.Size(78, 13);
             this.qtnLabel.TabIndex = 5;
@@ -112,48 +113,62 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(469, 150);
+            this.checkBox1.Location = new System.Drawing.Point(468, 190);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(80, 17);
             this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.Click += new System.EventHandler(this.CheckBoxes_CheckedChanged);
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(472, 199);
+            this.checkBox2.Location = new System.Drawing.Point(471, 239);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(80, 17);
             this.checkBox2.TabIndex = 7;
             this.checkBox2.Text = "checkBox2";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.Click += new System.EventHandler(this.CheckBoxes_CheckedChanged);
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(472, 248);
+            this.checkBox3.Location = new System.Drawing.Point(471, 288);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(80, 17);
             this.checkBox3.TabIndex = 8;
             this.checkBox3.Text = "checkBox3";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.Click += new System.EventHandler(this.CheckBoxes_CheckedChanged);
             // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(472, 299);
+            this.checkBox4.Location = new System.Drawing.Point(471, 339);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(80, 17);
             this.checkBox4.TabIndex = 9;
             this.checkBox4.Text = "checkBox4";
             this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.Click += new System.EventHandler(this.CheckBoxes_CheckedChanged);
+            // 
+            // qtnNumberLabel
+            // 
+            this.qtnNumberLabel.AutoSize = true;
+            this.qtnNumberLabel.Location = new System.Drawing.Point(510, 89);
+            this.qtnNumberLabel.Name = "qtnNumberLabel";
+            this.qtnNumberLabel.Size = new System.Drawing.Size(84, 13);
+            this.qtnNumberLabel.TabIndex = 10;
+            this.qtnNumberLabel.Text = "qtnNumber label";
             // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(843, 459);
+            this.Controls.Add(this.qtnNumberLabel);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
@@ -185,5 +200,6 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Label qtnNumberLabel;
     }
 }
