@@ -34,6 +34,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.nextBtn = new System.Windows.Forms.Button();
             this.quitBtn = new System.Windows.Forms.Button();
+            this.qtnLabel = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -94,11 +99,65 @@
             this.quitBtn.UseVisualStyleBackColor = false;
             this.quitBtn.Click += new System.EventHandler(this.quitBtn_Click);
             // 
+            // qtnLabel
+            // 
+            this.qtnLabel.AutoSize = true;
+            this.qtnLabel.Location = new System.Drawing.Point(469, 94);
+            this.qtnLabel.Name = "qtnLabel";
+            this.qtnLabel.Size = new System.Drawing.Size(78, 13);
+            this.qtnLabel.TabIndex = 5;
+            this.qtnLabel.Text = "Question Label";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(469, 150);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 6;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(472, 199);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(80, 17);
+            this.checkBox2.TabIndex = 7;
+            this.checkBox2.Text = "checkBox2";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(472, 248);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(80, 17);
+            this.checkBox3.TabIndex = 8;
+            this.checkBox3.Text = "checkBox3";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(472, 299);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(80, 17);
+            this.checkBox4.TabIndex = 9;
+            this.checkBox4.Text = "checkBox4";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(843, 459);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.qtnLabel);
             this.Controls.Add(this.quitBtn);
             this.Controls.Add(this.nextBtn);
             this.Controls.Add(this.label1);
@@ -120,5 +179,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button nextBtn;
         private System.Windows.Forms.Button quitBtn;
+        private System.Windows.Forms.Label qtnLabel;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
     }
 }
