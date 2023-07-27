@@ -130,11 +130,7 @@ namespace QuizzApp_group20
 
         private bool IsCorrectAnswer(CheckBox checkBox)
         {
-            // Implement your logic here to check if the checkbox contains the correct answer.
-            // For example, you can compare the checkbox.Text with the actual correct answer.
-            // Replace "Correct Answer" with the actual correct answer string.
             return checkBox.Text == correctOption;
-            //return checkBox.Text == "Correct Answer";
         }
 
         private void ResetCheckBoxes()
@@ -149,7 +145,6 @@ namespace QuizzApp_group20
 
         private string RemoveCheckmarkOrX(string text)
         {
-            // Remove the checkmark (✓) or X (✗) symbol from the text.
             return text.Replace(" ✓", "").Replace(" ✗", "");
         }
 
@@ -175,9 +170,9 @@ namespace QuizzApp_group20
             await DelayAndExecute(1000, () =>
             {
                 ResetCheckBoxes();
+                counter++;
                 qtnNumberLabel.Text = $"{counter}/10";
             });
-            counter++;
 
             if(counter == 11)
             {
