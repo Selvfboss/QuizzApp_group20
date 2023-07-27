@@ -141,6 +141,7 @@
             this.exitBtn.TabIndex = 9;
             this.exitBtn.Text = "EXIT";
             this.exitBtn.UseVisualStyleBackColor = false;
+            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
             // 
             // Form1
             // 

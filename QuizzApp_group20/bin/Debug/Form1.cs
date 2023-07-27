@@ -41,6 +41,9 @@ namespace QuizzApp_group20
             this.Hide();
         }
 
-       
+        private void exitBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

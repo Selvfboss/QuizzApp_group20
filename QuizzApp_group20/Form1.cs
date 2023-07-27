@@ -12,26 +12,11 @@ namespace QuizzApp_group20
 {
     public partial class Form1 : Form
     {
-        // Declared the dictionary here which contains strings..
-
-        private Dictionary<string, string> studentDetails;
-
         public Form1()
         {
 
             InitializeComponent();
 
-            /*
-             the dictory below contains all the names and passwords of the students
-             */
-            studentDetails = new Dictionary<string, string>
-            {
-                {"Nawas", "password123"},
-                {"Duke", "pass456"},
-                {"Nicholas", "pass789"},
-                {"Dennis", "pass101112"},
-                {"Aaron", "pass131415"}
-            };
         }
 
         private void startBtn_Click(object sender, EventArgs e)
@@ -41,6 +26,9 @@ namespace QuizzApp_group20
             this.Hide();
         }
 
-       
+        private void exitBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
